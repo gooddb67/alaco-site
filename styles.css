@@ -1,0 +1,81 @@
+body {
+  color: white;
+  background-image: url("https://web.archive.org/web/20091026143121im_/http://geocities.com/Area51/Cavern/5014/back.gif");
+  padding: 40px;
+}
+
+video {
+  width: 80%;
+  height: 100%;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.welcome-btn {
+  position: absolute;
+  top: 15%;
+  right: 3rem;
+}
+
+h2 a {
+  color: red;
+}
+h4 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  font-size: 28px;
+}
+a:visited {
+  color: white;
+}
+
+.graphic {
+  position: absolute;
+  right: 0;
+  bottom: 50px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  filter: invert(73%) sepia(27%) saturate(7144%) hue-rotate(91deg)
+    brightness(97%) contrast(82%);
+}
+
+li::before {
+  content: "";
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+  background-size: 80px;
+  background-image: url("https://alaco-assets.s3.amazonaws.com/alaco-logo-transparent.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: middle;
+  filter: invert(16%) sepia(47%) saturate(4469%) hue-rotate(233deg)
+    brightness(97%) contrast(92%);
+}
+
+.nigh:before,
+.nigh:after {
+  content: url(https://web.archive.org/web/20090821155232/http://geocities.com/Heartland/Pointe/5439/atomic.gif);
+  vertical-align: middle;
+}
+
+/* fonts */
+
+@font-face {
+  font-family: "Shlop";
+  src: url("/fonts/SHLOP.ttf") format("truetype");
+}
